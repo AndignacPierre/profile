@@ -2,33 +2,33 @@ body {
   font-family: Open Sans, sans-serif;
   font-weight: 300;
   font-size: 16px;
-  background-color: #eaeaea;
-  color: #575F7D;
+  background-color: #F7F9FC;
+  color: #0D1B4C;
   line-height: 30px;
   text-align: center;
 }
 
 h1, h2, h3{
   font-family: Open Sans, sans-serif;
-  color: #265073;
+  color: #3F6699;
 }
 
 h1{
-  font-size: 32px;
+  font-size: 28px;
 }
 
 h2{
-  font-size: 24px;
+  font-size: 20px;
 }
 
 h3{
   font-size: 20px;
-  color: #2D9596 ;
+  color: #F3ECC8 ;
 }
 
 p {
   font-size: 16px;
-  line-height: 20px;
+  line-height: 25px;
 }
 
 a {
@@ -37,24 +37,19 @@ a {
   line-height: 10px;
   color: #ffffff ;
   text-decoration: none;
-  background-color: #265073;
-  padding: 8px;
+  background-color: #3F6699;
+  padding: 10px;
   border-radius: 6px;
-
 }
 
 a:hover{
-  color: #ffffff ;
-  background-color: #2D9596;
+  color: #F3ECC8 ;
+  background-color: #0D1B4C;
 }
 
 li{
-  color: #2D9596 ;
+  color: #F3ECC8 ;
   font-size: 30px;
-}
-
-#introduction {
-  padding: 30px
 }
 
 .container {
@@ -64,15 +59,11 @@ li{
 
 .card-white {
   margin: 20px;
-  padding: 40px;
+  padding: 10px;
   background-color: white ;
   border: 1px solid lightgrey;
   border-radius: 5px ;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-#profile-pic {
-  border-radius: 50%;
+  box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.1);
 }
 
 .list-inline > li {
@@ -81,9 +72,34 @@ li{
 }
 
 .list-inline {
+  font-size: 30px;
   list-style: none;
   padding-left: 0px;
 }
+
+.button-square {
+  font-size: 30px;
+  line-height: 10px;
+  color: #ffffff ;
+  text-decoration: none;
+  background-color: #3F6699;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+#introduction {
+  padding: 30px
+}
+
+#profile-pic {
+  border-radius: 50%;
+}
+
+#follow-me {
+  background-color: #3F6699;
+  padding: 0px
+}
+
 
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
