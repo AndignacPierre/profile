@@ -1,0 +1,87 @@
+body {
+  font-family: Open Sans, sans-serif;
+  background-color: #eaeaea;
+  color: #454545;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+}
+
+h1, h2, h3{
+  font-family: Open Sans, sans-serif;
+  color: #265073;
+}
+
+h1{
+  font-size: 36px;
+}
+
+h2{
+  font-size: 25px;
+}
+
+h3{
+  font-size: 20px;
+  color: #2D9596 ;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+a {
+  font-size: 14px;
+  line-height: 10px;
+  color: #ffffff ;
+  text-decoration: none;
+  background-color: #265073;
+  padding: 6px;
+  border-radius: 5px;
+
+}
+
+a:hover{
+  color: #265073 ;
+  background-color: #9AD0C2;
+}
+
+li{
+  color: #2D9596 ;
+  font-size: 30px;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card-white {
+  margin: 20px;
+  padding: 20px;
+  background-color: white ;
+  border: 1px solid lightgrey;
+  border-radius: 5px ;
+  box-shadow: #000000 ;
+}
+
+#profile-pic {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
